@@ -1,0 +1,2053 @@
+2022-11-10 12:07:05,605 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-10 12:07:38,251 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig_Programs\VirtuSig\Virtusig_ESignature\settings.py changed, reloading.
+2022-11-10 12:07:39,877 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-10 12:14:12,217 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-10 12:14:15,054 django.request WARNING  Not Found: /
+2022-11-10 12:14:15,124 django.request WARNING  Not Found: /favicon.ico
+2022-11-10 12:15:13,199 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig_Programs\VirtuSig\Virtusig_ESignature\urls.py changed, reloading.
+2022-11-10 12:15:14,720 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-10 12:15:20,249 django.request WARNING  Not Found: /Virtusig_ESignature/docs/
+2022-11-10 12:15:24,277 django.request WARNING  Not Found: /Virtusig_ESignature/docs/
+2022-11-10 14:01:19,747 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig_Programs\VirtuSig\Virtusig_ESignature\urls.py changed, reloading.
+2022-11-10 14:01:21,614 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-10 14:19:04,433 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig_Programs\VirtuSig\Virtusig_ESignature\urls.py changed, reloading.
+2022-11-10 14:19:06,125 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-10 14:36:28,303 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig_Programs\VirtuSig\Virtusig_ESignature\urls.py changed, reloading.
+2022-11-10 14:36:29,972 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-10 15:08:01,667 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig_Programs\VirtuSig\Virtusig_ESignature\urls.py changed, reloading.
+2022-11-10 15:08:03,349 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 14:15:44,779 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:27:58,710 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:28:43,319 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-14 18:28:47,180 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:29:15,038 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-14 18:29:17,458 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:30:26,968 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:30:37,716 django.request WARNING  Not Found: /
+2022-11-14 18:30:37,852 django.request WARNING  Not Found: /favicon.ico
+2022-11-14 18:32:00,610 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\urls.py changed, reloading.
+2022-11-14 18:32:04,076 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:32:32,253 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\urls.py changed, reloading.
+2022-11-14 18:32:34,708 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:32:50,927 django.request ERROR    Internal Server Error: /virtusig_app/test/login_user/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 17, in post
+    yagmail.SMTP('sasikumar', 'Sasikumar5799@').send([request.data['email_id']], subject, content)
+KeyError: 'email_id'
+2022-11-14 18:33:36,109 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-14 18:33:38,215 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:36:10,089 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-14 18:36:12,560 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:41:10,886 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-14 18:41:12,961 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:41:14,942 django.request WARNING  Not Found: /
+2022-11-14 18:41:20,972 django.request WARNING  Not Found: /vrihodha/docs/
+2022-11-14 18:42:51,899 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-14 18:42:53,524 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-14 18:45:17,017 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:12:50,437 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:13:49,338 django.request WARNING  Not Found: /
+2022-11-15 10:13:49,388 django.request WARNING  Not Found: /favicon.ico
+2022-11-15 10:14:02,977 django.request WARNING  Not Found: /Virtusig_ESignature/docs/
+2022-11-15 10:14:10,490 django.request WARNING  Not Found: /Virtusig_ESignature/docs/
+2022-11-15 10:14:52,718 django.request WARNING  Not Found: /Virtusig_ESignature/docs/
+2022-11-15 10:15:55,663 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-15 10:15:57,488 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:30:41,269 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-15 10:30:44,177 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:31:11,655 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-15 10:31:13,341 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:31:55,421 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:31:56,937 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:41:22,289 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:41:24,017 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:42:24,591 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:42:26,468 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:42:46,292 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:42:47,954 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:43:23,571 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:43:25,018 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:44:32,180 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:44:33,622 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:46:58,136 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:46:59,459 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:47:12,166 django.request ERROR    Internal Server Error: /virtusig_app/test/login_user/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 18, in post
+    yagmail.SMTP('sasikumar', 'Sasikumar5799@').send([request.data['email_id']], subject, content)
+KeyError: 'email_id'
+2022-11-15 10:49:11,260 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-15 10:49:12,685 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:53:28,500 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 10:53:29,915 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:54:07,386 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\testing_service.py changed, reloading.
+2022-11-15 10:54:08,876 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:54:29,122 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\testing_service.py changed, reloading.
+2022-11-15 10:54:30,546 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:55:21,174 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:55:22,611 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:56:18,500 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 10:56:19,877 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:58:40,607 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 10:58:46,245 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:58:50,438 drf_yasg.inspectors.base WARNING  view's LoginReg raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'LoginReg' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2022-11-15 10:58:50,463 drf_yasg.inspectors.base WARNING  view's LoginReg raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'LoginReg' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2022-11-15 10:59:21,508 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 10:59:22,981 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 10:59:28,268 drf_yasg.inspectors.base WARNING  view's LoginReg raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'LoginReg' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2022-11-15 10:59:28,271 drf_yasg.inspectors.base WARNING  view's LoginReg raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'LoginReg' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2022-11-15 11:01:47,306 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 11:02:03,360 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 11:02:34,295 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 11:02:35,885 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 11:03:27,140 django.request ERROR    Internal Server Error: /virtusig_app/test/login_user/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 19, in post
+    yagmail.SMTP('sasikumar', 'Sasikumar5799@').send([request.data['email_id']], subject, content)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 156, in send
+    self.login()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 210, in login
+    self._login(self.credentials)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 229, in _login
+    self.smtp.login(self.user, password)
+  File "C:\Users\Vrdella\AppData\Local\Programs\Python\Python38\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\Vrdella\AppData\Local\Programs\Python\Python38\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\Vrdella\AppData\Local\Programs\Python\Python38\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials z25-20020aa79499000000b0056ca3569a66sm7706322pfk.129 - gsmtp')
+2022-11-15 11:04:58,040 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 11:05:12,165 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 11:35:41,049 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-15 11:35:42,586 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 11:42:48,242 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-15 11:42:50,348 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 11:43:20,501 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-15 11:43:23,568 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 13:53:16,724 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 13:53:25,030 django.request ERROR    Internal Server Error: /Virtusig_Esignature/docs/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\swagger_service.py", line 17, in get_schema
+    swagger = super().get_schema(request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 437, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 33, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 121, in field_to_swagger_object
+    return make_schema_definition()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 93, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+AttributeError: 'str' object has no attribute 'items'
+2022-11-15 13:54:29,337 django.request ERROR    Internal Server Error: /Virtusig_Esignature/docs/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\swagger_service.py", line 17, in get_schema
+    swagger = super().get_schema(request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 437, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 33, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 121, in field_to_swagger_object
+    return make_schema_definition()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 93, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+AttributeError: 'str' object has no attribute 'items'
+2022-11-15 13:57:06,392 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\urls.py changed, reloading.
+2022-11-15 13:57:08,348 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 13:57:13,494 django.request ERROR    Internal Server Error: /Virtusig_Esignature/docs/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\swagger_service.py", line 17, in get_schema
+    swagger = super().get_schema(request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 437, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 33, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 121, in field_to_swagger_object
+    return make_schema_definition()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 93, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+AttributeError: 'str' object has no attribute 'items'
+2022-11-15 14:14:09,251 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:16:29,060 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\urls.py changed, reloading.
+2022-11-15 14:16:30,585 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:19:24,906 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 14:19:26,726 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:26:08,539 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:36:22,905 django.request ERROR    Internal Server Error: /virtusig_app/test/envelop/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 29, in post
+    yagmail.SMTP(request.data['email_id'], request.data['sender_password']).send([request.data['recipient_id']],
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 157, in send
+    recipients, msg_strings = self.prepare_send(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 116, in prepare_send
+    addresses = resolve_addresses(self.user, self.useralias, to, cc, bcc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 13, in resolve_addresses
+    make_addr_alias_target(to, addresses, "To")
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 42, in make_addr_alias_target
+    raise YagAddressError
+yagmail.error.YagAddressError
+2022-11-15 14:39:06,035 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:39:16,198 django.request ERROR    Internal Server Error: /virtusig_app/test/envelop/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 29, in post
+    yagmail.SMTP(request.data['email_id'], request.data['sender_password']).send([request.data['recipient_id']],
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 157, in send
+    recipients, msg_strings = self.prepare_send(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 116, in prepare_send
+    addresses = resolve_addresses(self.user, self.useralias, to, cc, bcc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 13, in resolve_addresses
+    make_addr_alias_target(to, addresses, "To")
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 42, in make_addr_alias_target
+    raise YagAddressError
+yagmail.error.YagAddressError
+2022-11-15 14:40:02,078 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:40:07,156 django.request ERROR    Internal Server Error: /virtusig_app/test/envelop/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 29, in post
+    yagmail.SMTP(request.data['email_id'], request.data['sender_password']).send([request.data['recipient_id']],
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 157, in send
+    recipients, msg_strings = self.prepare_send(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 116, in prepare_send
+    addresses = resolve_addresses(self.user, self.useralias, to, cc, bcc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 13, in resolve_addresses
+    make_addr_alias_target(to, addresses, "To")
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 42, in make_addr_alias_target
+    raise YagAddressError
+yagmail.error.YagAddressError
+2022-11-15 14:41:40,049 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:41:48,385 django.request ERROR    Internal Server Error: /virtusig_app/test/envelop/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 31, in post
+    yagmail.SMTP(request.data['email_id'], request.data['sender_password']).send([request.data['recipient_id']],
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 157, in send
+    recipients, msg_strings = self.prepare_send(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 116, in prepare_send
+    addresses = resolve_addresses(self.user, self.useralias, to, cc, bcc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 13, in resolve_addresses
+    make_addr_alias_target(to, addresses, "To")
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 42, in make_addr_alias_target
+    raise YagAddressError
+yagmail.error.YagAddressError
+2022-11-15 14:42:29,355 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:46:52,885 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:48:17,187 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:50:41,274 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:51:40,432 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:52:21,549 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 14:52:23,900 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:52:26,567 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:52:36,051 django.request ERROR    Internal Server Error: /virtusig_app/test/envelop/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 31, in post
+    yagmail.SMTP(request.data['email_id'], request.data['sender_password']).send([request.data['recipient_id']],
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 157, in send
+    recipients, msg_strings = self.prepare_send(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 116, in prepare_send
+    addresses = resolve_addresses(self.user, self.useralias, to, cc, bcc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 13, in resolve_addresses
+    make_addr_alias_target(to, addresses, "To")
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 42, in make_addr_alias_target
+    raise YagAddressError
+yagmail.error.YagAddressError
+2022-11-15 14:53:14,117 django.request ERROR    Internal Server Error: /virtusig_app/test/envelop/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 31, in post
+    yagmail.SMTP(request.data['email_id'], request.data['sender_password']).send([request.data['recipient_id']],
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 157, in send
+    recipients, msg_strings = self.prepare_send(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\sender.py", line 116, in prepare_send
+    addresses = resolve_addresses(self.user, self.useralias, to, cc, bcc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 13, in resolve_addresses
+    make_addr_alias_target(to, addresses, "To")
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\yagmail\headers.py", line 42, in make_addr_alias_target
+    raise YagAddressError
+yagmail.error.YagAddressError
+2022-11-15 14:53:43,388 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 14:53:45,469 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:56:06,718 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 14:56:08,281 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 14:56:45,015 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 14:56:46,572 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:01:08,135 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:01:09,949 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:01:40,228 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:06:50,770 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:11:05,772 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:12:36,811 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:13:23,924 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:15:38,955 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:16:46,412 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:18:23,679 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:19:59,707 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:21:03,416 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:21:20,740 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:22:07,323 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:22:08,999 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:23:12,170 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:23:14,131 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:27:25,157 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:27:27,127 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:29:07,663 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:29:10,795 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:30:44,743 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:30:46,807 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:31:01,447 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:31:03,555 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:31:17,311 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:31:19,349 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:31:30,909 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:31:32,911 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:33:26,868 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:33:29,173 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:33:58,106 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-15 15:35:59,493 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:36:01,782 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:36:12,147 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-15 15:44:25,263 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:44:27,300 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:46:13,026 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:46:16,517 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 15:58:19,680 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 15:58:21,520 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 16:05:26,106 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 16:05:27,797 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 16:08:28,324 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-15 16:08:29,691 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-15 16:08:30,268 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-15 16:08:46,033 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 16:08:47,755 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 16:50:21,095 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 16:50:24,306 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 16:59:43,090 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 16:59:44,810 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 16:59:52,994 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 16:59:55,529 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:06:13,119 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 17:06:15,379 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:07:50,482 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 17:07:52,177 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:10:56,277 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 17:10:57,936 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:17:50,379 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 17:17:52,250 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:24:28,536 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 17:24:29,965 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:25:21,083 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\urls.py changed, reloading.
+2022-11-15 17:25:22,824 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:27:30,557 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-15 17:27:32,305 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:29:01,592 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:29:54,428 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:31:03,116 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:32:30,110 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:33:13,476 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:34:08,021 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:35:00,314 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:49:45,005 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:51:48,771 virtusig_app.service.Login_service ERROR    sent message is failed.
+2022-11-15 17:53:52,678 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:55:39,937 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 17:57:35,223 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 18:02:06,048 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 18:03:38,530 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 18:03:44,486 django.request ERROR    Internal Server Error: /Virtusig_Esignature/docs/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\swagger_service.py", line 17, in get_schema
+    swagger = super().get_schema(request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 437, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 33, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 121, in field_to_swagger_object
+    return make_schema_definition()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 93, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 1086, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\fields.py", line 1515, in __init__
+    field = DjangoFilePathField(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\forms\fields.py", line 1126, in __init__
+    for f in os.scandir(self.path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: ''
+2022-11-15 18:05:11,607 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-15 18:05:14,052 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 18:05:51,102 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 18:06:05,495 django.request ERROR    Internal Server Error: /Virtusig_Esignature/docs/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\swagger_service.py", line 17, in get_schema
+    swagger = super().get_schema(request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 437, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 33, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 121, in field_to_swagger_object
+    return make_schema_definition()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 93, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 1086, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\fields.py", line 1515, in __init__
+    field = DjangoFilePathField(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\forms\fields.py", line 1126, in __init__
+    for f in os.scandir(self.path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: ''
+2022-11-15 18:07:01,621 django.request ERROR    Internal Server Error: /Virtusig_Esignature/docs/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\swagger_service.py", line 17, in get_schema
+    swagger = super().get_schema(request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 437, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 33, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 121, in field_to_swagger_object
+    return make_schema_definition()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 93, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 1086, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\fields.py", line 1515, in __init__
+    field = DjangoFilePathField(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\forms\fields.py", line 1126, in __init__
+    for f in os.scandir(self.path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: ''
+2022-11-15 18:07:16,522 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 18:07:18,141 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 18:08:14,621 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-15 18:08:16,190 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 18:08:20,990 django.request ERROR    Internal Server Error: /Virtusig_Esignature/docs/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\swagger_service.py", line 17, in get_schema
+    swagger = super().get_schema(request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 437, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 33, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 121, in field_to_swagger_object
+    return make_schema_definition()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 93, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 1086, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\fields.py", line 1515, in __init__
+    field = DjangoFilePathField(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\forms\fields.py", line 1126, in __init__
+    for f in os.scandir(self.path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: ''
+2022-11-15 18:11:15,312 django.request ERROR    Internal Server Error: /Virtusig_Esignature/docs/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\swagger_service.py", line 17, in get_schema
+    swagger = super().get_schema(request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 437, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 33, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 121, in field_to_swagger_object
+    return make_schema_definition()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\drf_yasg\inspectors\field.py", line 93, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\serializers.py", line 1086, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\fields.py", line 1515, in __init__
+    field = DjangoFilePathField(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\forms\fields.py", line 1126, in __init__
+    for f in os.scandir(self.path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: ''
+2022-11-16 10:10:52,406 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 10:10:55,756 django.request WARNING  Not Found: /
+2022-11-16 10:10:55,822 django.request WARNING  Not Found: /favicon.ico
+2022-11-16 10:11:08,592 django.request WARNING  Not Found: /Virtusig_ESignature/docs/
+2022-11-16 10:13:09,202 virtusig_app.service.Login_service ERROR    sent message is failed.
+2022-11-16 10:27:05,037 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 10:27:34,484 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 10:31:58,397 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 10:32:12,256 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 10:33:07,696 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 10:33:38,511 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 10:56:29,458 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:45:12,096 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:45:31,762 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:47:56,082 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 11:48:34,194 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:51:12,107 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:51:41,160 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:52:41,316 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:54:32,426 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:55:01,462 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:57:41,183 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:57:48,882 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 11:58:10,216 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 11:58:11,729 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:58:15,703 virtusig_app.service.Login_service ERROR    sent message is failed.
+2022-11-16 11:58:46,692 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 11:58:48,342 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 11:58:57,771 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:09:48,184 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 12:09:50,241 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:10:59,280 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 12:11:01,330 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:11:21,303 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 12:11:22,906 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:11:31,632 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:14:56,590 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:16:11,319 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:16:20,925 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:16:55,017 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:27:46,309 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:28:11,077 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:30:19,555 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 12:30:21,276 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:30:30,565 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:31:11,538 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:31:13,554 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:31:54,847 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:32:02,248 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:32:09,674 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:32:29,660 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:39:49,852 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 12:39:51,616 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:41:29,608 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 12:41:31,616 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:42:33,853 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:43:41,423 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-16 12:46:52,490 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\urls.py changed, reloading.
+2022-11-16 12:46:54,476 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 12:54:54,690 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 13:04:04,049 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 13:06:20,805 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 13:08:45,581 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 13:12:40,840 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:03:12,469 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:20:56,945 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:20:59,652 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:31:57,108 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:31:59,658 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:32:34,922 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:32:46,578 django.request WARNING  Not Found: /
+2022-11-16 14:32:57,567 django.request WARNING  Not Found: /vi/
+2022-11-16 14:34:33,753 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:35:28,047 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:35:29,581 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:35:39,574 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:35:41,028 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:36:08,014 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:36:10,455 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:36:46,748 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:36:48,392 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:37:15,658 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:37:17,139 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:45:44,208 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:45:45,737 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:47:18,321 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:47:19,897 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:47:25,900 django.request ERROR    Internal Server Error: /virtusig_app/test/login/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-11-16 14:50:22,933 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:50:24,459 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:50:32,292 django.request ERROR    Internal Server Error: /virtusig_app/test/login/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-11-16 14:51:09,033 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:51:10,597 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:51:14,582 django.request ERROR    Internal Server Error: /virtusig_app/test/login/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-11-16 14:52:43,872 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 14:52:45,301 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 14:53:27,133 django.request ERROR    Internal Server Error: /virtusig_app/test/login/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-11-16 15:02:53,501 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:02:55,097 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:02:59,853 django.request ERROR    Internal Server Error: /virtusig_app/test/login/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-11-16 15:04:27,685 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:04:29,184 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:04:55,464 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:04:56,867 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:05:35,961 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:05:37,491 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:06:17,741 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:06:30,342 django.request WARNING  Not Found: /
+2022-11-16 15:10:03,996 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:12:12,888 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:23:43,935 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:25:01,861 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:28:13,285 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:28:15,947 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:28:44,184 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:30:16,830 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\src\Data_serialization.py changed, reloading.
+2022-11-16 15:30:18,341 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:31:40,188 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:31:41,563 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:32:11,260 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:32:12,740 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:32:16,643 django.request WARNING  Not Found: /
+2022-11-16 15:33:17,547 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:36:35,974 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:36:38,257 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:37:45,302 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:38:31,161 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:39:59,121 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:40:00,591 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:40:34,456 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:40:35,896 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:41:19,196 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:41:20,648 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:41:39,554 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:41:40,988 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:42:22,430 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:42:23,968 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:44:05,260 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:44:06,756 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:46:05,824 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:46:07,377 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:47:22,470 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:47:23,953 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:48:51,216 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:48:52,667 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:49:51,745 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:49:53,243 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:52:29,881 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:52:31,445 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 15:55:00,493 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 15:55:01,967 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:01:49,894 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:01:51,707 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:03:02,986 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:03:04,501 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:30:20,228 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:30:21,938 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:32:35,791 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:32:37,392 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:33:09,464 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:33:10,951 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:34:18,321 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:34:19,897 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:39:34,637 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:39:36,148 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:41:50,377 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:43:48,348 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:43:49,894 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:53:34,830 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:53:36,365 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 16:56:35,593 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 16:56:37,290 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:05:03,437 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:05:04,953 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:06:20,157 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:06:21,607 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:08:33,668 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:08:35,224 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:08:49,722 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:08:51,102 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:30:32,196 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:30:34,082 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:32:22,651 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:32:24,486 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:42:45,432 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:42:46,987 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:43:26,903 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:43:28,318 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:43:37,215 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:43:38,687 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:44:09,975 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:44:11,445 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 17:45:14,999 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-16 17:45:16,527 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 18:02:39,191 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-16 18:03:53,298 virtusig_app.service.Login_service INFO     Email send successfully.
+2022-11-17 09:43:53,951 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 10:10:43,216 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 10:10:45,190 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 10:12:20,178 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 10:12:22,055 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 10:13:22,713 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 10:13:24,610 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 10:15:27,064 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 10:15:28,614 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 10:44:16,335 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 10:44:18,248 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 11:22:11,464 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\settings.py changed, reloading.
+2022-11-17 11:22:13,177 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 11:32:25,357 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-17 11:32:27,276 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 11:45:42,824 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 11:45:44,595 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 11:47:24,717 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 11:47:26,671 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 11:48:36,925 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 11:48:38,425 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 12:02:04,037 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 12:02:13,589 django.request WARNING  Not Found: /
+2022-11-17 12:02:13,684 django.request WARNING  Not Found: /favicon.ico
+2022-11-17 13:57:58,844 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 13:58:01,280 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:04:52,275 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:04:54,626 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:05:42,932 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:05:44,944 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:09:19,239 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:09:21,646 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:23:21,020 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:23:23,100 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:24:01,511 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:24:03,488 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:31:32,949 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-17 14:31:34,730 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:36:06,188 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\settings.py changed, reloading.
+2022-11-17 14:36:08,340 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:37:04,894 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\Virtusig_ESignature\settings.py changed, reloading.
+2022-11-17 14:37:06,742 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:41:26,653 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:41:28,754 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:43:56,888 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:43:59,055 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:44:57,831 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\urls.py changed, reloading.
+2022-11-17 14:44:59,741 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:45:31,295 django.request ERROR    Internal Server Error: /virtusig_app/test/reset_password/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 198, in post
+    user = models.VirtusigLogin.objects.filter(user_email=user_email).exists()
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1416, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1435, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1309, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1135, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1562, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_email' into field. Choices are: email_id, id, password
+2022-11-17 14:46:34,102 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:46:36,047 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:46:40,881 django.request ERROR    Internal Server Error: /virtusig_app/test/reset_password/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 197, in post
+    user_email = request.data['email_id']
+KeyError: 'email_id'
+2022-11-17 14:46:41,998 django.request ERROR    Internal Server Error: /virtusig_app/test/reset_password/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 197, in post
+    user_email = request.data['email_id']
+KeyError: 'email_id'
+2022-11-17 14:48:05,192 django.request ERROR    Internal Server Error: /virtusig_app/test/reset_password/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 202, in post
+    yagmail.SMTP('sasikumar@vrdella.com', 'Sasikumar5799@').send(request.data['user_email'],
+KeyError: 'user_email'
+2022-11-17 14:49:52,011 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:49:53,914 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 14:53:01,976 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 14:53:04,251 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 15:34:01,010 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 15:34:03,683 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 15:38:18,282 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-17 15:38:20,464 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 16:03:54,820 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-17 16:03:56,937 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 16:39:29,877 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 16:39:32,236 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 16:42:26,816 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 16:42:28,946 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 16:57:48,338 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 16:57:50,988 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 17:22:01,313 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-17 17:22:03,166 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 17:22:08,129 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-17 17:22:09,927 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 17:22:50,416 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-17 17:22:52,039 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 17:37:45,601 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-17 17:37:47,789 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 17:46:00,351 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-17 17:46:02,334 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 17:52:28,774 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 17:52:30,565 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 17:56:31,783 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-17 17:56:33,489 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 18:00:09,059 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-17 18:00:10,619 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 18:01:18,974 django.request ERROR    Internal Server Error: /virtusig_app/test/login_user/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 28, in post
+    data = models.Users.objects.create(email_id=serializer_class)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 451, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Users() got an unexpected keyword argument 'email_id'
+2022-11-17 18:01:41,238 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 18:01:42,784 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 18:01:47,663 django.request ERROR    Internal Server Error: /virtusig_app/test/login_user/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.DataError: (1406, "Data too long for column 'email_id' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 28, in post
+    data = models.LoginUser.objects.create(email_id=serializer_class)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'email_id' at row 1")
+2022-11-17 18:02:59,688 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 18:03:01,514 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 18:07:01,867 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 18:07:03,516 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 18:07:51,102 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 18:07:52,835 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-17 18:36:57,871 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-17 18:37:07,299 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:05:38,990 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:05:48,672 django.request WARNING  Not Found: /
+2022-11-18 10:05:48,777 django.request WARNING  Not Found: /favicon.ico
+2022-11-18 10:07:03,729 django.request ERROR    Internal Server Error: /virtusig_app/test/login_prod/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 52, in post
+    check = models.LoginUser.objects.filter(user_email=request.data['user_email'])
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1416, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1435, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1309, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1135, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\query.py", line 1562, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_email' into field. Choices are: email_id, user_password
+2022-11-18 10:08:11,876 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 10:08:13,959 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:08:18,064 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 10:08:19,737 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:08:46,547 django.request ERROR    Internal Server Error: /virtusig_app/test/login_prod/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'is_superuser' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 56, in post
+    create = models.Users.objects.create(user_email=request.data['user_email'], password=request.data['password'])
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'is_superuser' cannot be null")
+2022-11-18 10:08:46,553 django.request ERROR    Internal Server Error: /virtusig_app/test/login_prod/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'is_superuser' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 56, in post
+    create = models.Users.objects.create(user_email=request.data['user_email'], password=request.data['password'])
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'is_superuser' cannot be null")
+2022-11-18 10:12:37,102 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:12:53,767 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-18 10:12:55,802 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:13:08,360 django.request ERROR    Internal Server Error: /virtusig_app/test/login_prod/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'is_staff' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 56, in post
+    create = models.Users.objects.create(user_email=request.data['user_email'], password=request.data['password'])
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'is_staff' cannot be null")
+2022-11-18 10:13:09,095 django.request ERROR    Internal Server Error: /virtusig_app/test/login_prod/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'is_staff' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 56, in post
+    create = models.Users.objects.create(user_email=request.data['user_email'], password=request.data['password'])
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'is_staff' cannot be null")
+2022-11-18 10:15:13,253 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\models.py changed, reloading.
+2022-11-18 10:15:15,025 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:16:28,163 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:17:30,385 django.request ERROR    Internal Server Error: /virtusig_app/test/login_prod/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'is_staff' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 56, in post
+    create = models.Users.objects.create(user_email=request.data['user_email'], password=request.data['password'])
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'is_staff' cannot be null")
+2022-11-18 10:18:33,363 django.request ERROR    Internal Server Error: /virtusig_app/test/login_prod/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'is_active' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 56, in post
+    create = models.Users.objects.create(user_email=request.data['user_email'], password=request.data['password'])
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'is_active' cannot be null")
+2022-11-18 10:18:53,014 django.request ERROR    Internal Server Error: /virtusig_app/test/login_prod/
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'first_login' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py", line 56, in post
+    create = models.Users.objects.create(user_email=request.data['user_email'], password=request.data['password'])
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Vrdella\VirtuSig\Virtusig_env\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'first_login' cannot be null")
+2022-11-18 10:24:50,435 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 10:24:52,218 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:30:52,209 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:31:32,363 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:38:25,993 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:39:52,342 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 10:39:55,233 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:41:35,886 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:41:46,168 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:43:21,328 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:48:03,812 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-18 10:48:06,787 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:51:11,526 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:54:23,362 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:55:24,221 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 10:59:57,292 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:00:56,123 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:02:12,454 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:02:45,048 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:03:11,851 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:12:23,411 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-18 11:12:27,056 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:13:04,565 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:13:44,179 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:14:30,516 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:18:49,526 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 11:18:53,394 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:44:54,515 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 11:44:58,095 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:50:13,333 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:50:29,167 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:50:36,773 virtusig_app.service.Login_service INFO     logged-in successfully.Token Generated
+2022-11-18 11:51:12,807 virtusig_app.service.Login_service INFO     logged-in successfully.Token Generated
+2022-11-18 11:51:25,248 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:52:35,102 virtusig_app.service.Login_service INFO     logged-in successfully.Token Generated
+2022-11-18 11:56:24,390 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:56:30,055 django.request WARNING  Unauthorized: /virtusig_app/test/login/
+2022-11-18 11:57:49,893 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 11:57:51,704 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 11:57:57,567 virtusig_app.service.Login_service INFO     logged-in successfully.Token Generated
+2022-11-18 12:10:03,459 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 12:10:05,392 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 12:10:38,472 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\urls.py changed, reloading.
+2022-11-18 12:10:40,574 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 12:10:59,313 django.request WARNING  Unauthorized: /virtusig_app/test/logout/
+2022-11-18 12:11:56,929 virtusig_app.service.Login_service INFO     logged-in successfully.Token Generated
+2022-11-18 14:08:34,187 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 14:08:36,091 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 14:09:44,256 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 14:09:46,076 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 16:07:03,518 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\service\Login_service.py changed, reloading.
+2022-11-18 16:07:10,345 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-18 18:06:57,219 django.utils.autoreload INFO     C:\Users\Vrdella\VirtuSig\VirtuSig\virtusig_app\serializer.py changed, reloading.
+2022-11-18 18:07:00,406 django.utils.autoreload INFO     Watching for file changes with StatReloader
